@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Absensi Karyawan</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="hint_hp">No Handphone</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_alamat">Alamat</string>
+    <string name="hint_name">Nama Lengkap</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Daftar</string>
+    <string name="btn_link_to_register">Belum pernah mendaftar? daftar sekarang.</string>
+    <string name="btn_link_to_login">Sudah registrasi? silahkan login disini.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

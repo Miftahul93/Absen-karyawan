@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe"
+    tools:context="com.example.cah_ngganteng.absensikaryawan.Dashboard">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp">
+
+        <!--  Tombol Berita -->
+        <Button
+            android:id="@+id/btn_berita"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/berita"
+            android:text="Berita" />
+
+        <!--  Tombol Teman -->
+        <Button
+            android:id="@+id/absen"
+            style="@style/DashboardButton"
+            android:paddingLeft="150dp"
+            android:drawableTop="@drawable/acara"
+            android:text="Absen" />
+
+        <!--  Tombol Pesan -->
+        <Button
+            android:id="@+id/btn_pesan"
+            style="@style/DashboardButton"
+            android:paddingTop="120dp"
+            android:drawableTop="@drawable/berita"
+            android:text="Pesan" />
+
+        <!--  Tombol Tempat -->
+        <Button
+            android:id="@+id/btn_tempat"
+            style="@style/DashboardButton"
+            android:paddingLeft="150dp"
+            android:paddingTop="120dp"
+            android:drawableTop="@drawable/berita"
+            android:text="Tempat" />
+
+        <!--  Tombol Acara -->
+        <Button
+            android:id="@+id/btn_acara"
+            style="@style/DashboardButton"
+            android:paddingTop="250dp"
+            android:drawableTop="@drawable/acara"
+            android:text="Acara" />
+
+        <!--  Tombol Foto -->
+        <Button
+            android:id="@+id/btn_foto"
+            style="@style/DashboardButton"
+            android:paddingLeft="150dp"
+            android:paddingTop="250dp"
+            android:drawableTop="@drawable/berita"
+            android:text="Foto" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

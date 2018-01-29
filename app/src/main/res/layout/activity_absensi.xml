@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cah_ngganteng.absensikaryawan.Absensi">
+
+    <TextView
+        android:id="@+id/labelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp"
+        android:text="QR Code Scanner"
+        android:textSize="25sp"
+        android:textColor="#0044ff"
+        />
+
+    <EditText
+        android:text="Masukkan Id Pegawai"
+        android:id="@+id/labelCopy"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/labelText"
+        android:textSize="15sp"
+        android:textColor="#444444"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pindai Barcode"
+        android:onClick="onClick"
+        android:layout_below="@+id/labelCopy"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
